@@ -2,7 +2,7 @@ import React from 'react'
 import '../../App.css'
 import Hero from '../Hero'
 
-function Home() {
+export default function Home() {
     return (
         <>
             <Hero />
@@ -10,4 +10,4 @@ function Home() {
     )
 }
 
-export default Home;
+//  Home;
