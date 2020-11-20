@@ -6,6 +6,7 @@ import Home from './components/pages/Home'
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
 import Services from './components/pages/Services';
+import Footer from './components/Footer'
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
           <Route path='/sign-up' exact component={SignUp} />
         </Switch>
       </Router>
+
+      
       
     </>
   );
