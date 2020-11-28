@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './components/pages/Home'
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
-import Services from './components/pages/Services';
+import About from './components/pages/About';
 import Footer from './components/Footer'
 
 
@@ -16,7 +16,7 @@ function App() {
         <Navbar/>
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/services' exact component={Services} />
+          <Route path='/about' exact component={About} />
           <Route path='/products' exact component={Products} />
           <Route path='/sign-up' exact component={SignUp} />
         </Switch>
