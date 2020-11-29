@@ -11,10 +11,12 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <>
+    
+    <div>
       <Router>
         <Navbar/>
         <Switch>
+          
           <Route path='/' exact component={Home} />
           <Route path='/about' exact component={About} />
           <Route path='/contact' exact component={Contact} />
@@ -22,10 +24,9 @@ function App() {
         </Switch>
       </Router>
 
-      
-      
-    </>
+    </div>
   );
+  
 }
 
 export default App;

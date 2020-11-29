@@ -28,12 +28,12 @@ function Footer() {
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
-                        <h2>About Me</h2>
+                        {/* <h2>About Me</h2>
                         <Link to='/sign-up'>How it works</Link>
                         <Link to='/'>Testimo</Link>
                         <Link to='/'>career</Link>
                         <Link to='/'>invesstor</Link>
-                        <Link to='/'>Terms</Link>
+                        <Link to='/'>Terms</Link> */}
                     </div>
 
                 </div>
