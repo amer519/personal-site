@@ -12,7 +12,7 @@ function Hero() {
             <h1>Adventure</h1>
             <p>What it is sample text</p>
             <div className='hero-btns'>
-                <Button 
+                {/* <Button 
                 className='btns' 
                 buttonStyle='btn--outline' 
                 buttonSize='btn--large'
@@ -25,7 +25,7 @@ function Hero() {
                 buttonSize='btn--large'
                 >
                     WATCH TRAILER <i className='far fa-play-circle' />
-                </Button>
+                </Button> */}
             </div>
             
         </div>
