@@ -14,7 +14,7 @@ function Footer() {
                     <p className='footer-subscription-text'>
                         sample text
                     </p>
-                    <div className='input-areas'>
+                    {/* <div className='input-areas'>
                         <form>
                             <input 
                                 className='footer-input'
@@ -23,7 +23,7 @@ function Footer() {
                                 placefolder='Your Email'  />
                                 <Button buttonStyle='btn--outline'>Enter</Button>
                         </form>
-                    </div>
+                    </div> */}
             </section>
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
